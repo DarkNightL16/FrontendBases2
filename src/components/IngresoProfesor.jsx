@@ -45,14 +45,14 @@ const IngresoProfesor = () => {
   return (
     <div style={{
       backgroundColor: '#e8f5e9',
-      padding: '20px',
+      padding: '200px',
       borderRadius: '10px',
       textAlign: 'center'
     }}>
-      <h2>Ingresa tu ID para continuar</h2>
+      <h2>Inicio de Sesión Docente</h2>
       <input
         type="text"
-        placeholder="ID"
+        placeholder="Ingrese su usuario"
         value={id}
         onChange={handleInputChange}
         style={{
@@ -76,7 +76,7 @@ const IngresoProfesor = () => {
           cursor: 'pointer'
         }}
       >
-        INGRESAR
+        INICIAR SESIÓN
       </button>
 
       {showModal && (

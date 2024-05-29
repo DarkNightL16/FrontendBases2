@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
     return (
         <footer style={{
-            background: 'linear-gradient(90deg, #248f03 10%, #0ee443 100%)',
+            background: 'black',
             color: 'white',
             padding: '20px 0'
         }}>

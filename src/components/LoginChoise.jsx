@@ -13,7 +13,7 @@ const LoginChoiceContainer = styled.div`
 `;
 
 const Header = styled.div`
-  background-color: #6b8f71; /* Darker green for the header */
+  background-color: #33B5FF; /* Darker green for the header */
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -29,7 +29,7 @@ const Content = styled.div`
 `;
 
 const Title = styled.div`
-  background-color: green; /* Soft green for the title */
+  background-color: #33B5FF; /* Soft green for the title */
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -53,19 +53,19 @@ const Button = styled(Link)`
   transition: background-color 0.3s;
 
   &.profesor {
-    background-color: #83b587; /* Green for the professor button */
+    background-color: #33B5FF; /* Green for the professor button */
   }
 
   &.estudiante {
-    background-color: #9fc89e; /* Lighter green for the student button */
+    background-color: #33B5FF; /* Lighter green for the student button */
   }
 
   &.profesor:hover {
-    background-color: green; /* Darker green on hover for professor button */
+    background-color: 33B5FF; /* Darker green on hover for professor button */
   }
 
   &.estudiante:hover {
-    background-color: green; /* Darker green on hover for student button */
+    background-color: 33B5FF; /* Darker green on hover for student button */
   }
 `;
 
@@ -75,7 +75,7 @@ const LoginChoice = () => {
       <Content>
         <Title>Ingresa como</Title>
         <Buttons>
-          <Button to="/profesor" className="profesor">Profesor</Button>
+          <Button to="/profesor" className="profesor">Docente</Button>
           <Button to="/estudiante" className="estudiante">Estudiante</Button>
         </Buttons>
       </Content>

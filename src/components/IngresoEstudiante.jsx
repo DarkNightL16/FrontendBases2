@@ -113,7 +113,7 @@ const IngresoEstudiante = () => {
         onClick={handleSubmit}
         style={styles.button}
       >
-        INGRESAR
+        INICIAR SESIÓN
       </button>
 
       {showModal && (
